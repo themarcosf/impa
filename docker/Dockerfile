@@ -7,8 +7,8 @@ RUN set -eux && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install pip-tools
-RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir pip-tools
+RUN python -m pip install --no-cache-dir --upgrade pip && \
+    python -m pip install --no-cache-dir pip-tools
 
 # Set workdir
 WORKDIR /workspace

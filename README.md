@@ -1,3 +1,5 @@
+# Run command: bash ./run.sh
+
 # Datasets descriptions
 
 Auto: Gas mileage, horsepower, and other information for cars.
